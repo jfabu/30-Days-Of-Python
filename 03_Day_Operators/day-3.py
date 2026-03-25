@@ -127,3 +127,8 @@ print(not True)      # False - Negation, the not operator turns true to false
 print(not False)     # True
 print(not not True)  # True
 print(not not False)  # False
+
+
+
+len('python') > len('dragon') and len('python') == len('dragon')  # False - because the first statement is false
+print('on' in 'python' and 'on' in 'dragon')  # This will print True
