@@ -183,3 +183,58 @@ ages.sort()
 print(ages)
 ages.sort(reverse=True)
 print(ages)
+
+empty_list= ()
+print(empty_list)
+things= [1,2,3,4,5]
+print(len(things))
+
+print(things[0])
+print(things[-1])
+mixed_data_types = ["Justin",23,"6'5", "dating", "13959"]
+it_companies=["Facebook","Google",'Microsoft','Apple','IBM','Oracle','Amazon']
+print(it_companies)
+
+mid = len(it_companies) // 2
+print("Company 1: ", it_companies[0])
+print("Middle Company: ", it_companies[mid])
+print("Last Company: ", it_companies[-1])
+
+
+it_companies[0] = "Meta"
+print(it_companies)
+it_companies.append("X")
+it_companies.insert(mid,"Opera")
+
+check = "Twitter" in it_companies
+print(check)
+it_companies[0]= it_companies[0].upper()
+print(it_companies)
+
+first = it_companies[:3]
+print(first)
+middle_co = it_companies[mid]
+print(middle_co)
+it_companies.clear
+
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages= sorted(ages)
+print(sorted(ages))
+print(ages)
+youngest=ages[0]
+oldest = ages[-1]
+print("The youngest and oldest are: "+ str(youngest) +" years old and "+ str(oldest))
+
+avg=sum(ages)/len(ages)
+mid= len(ages)//2
+max(ages)
+min(ages)
+
+countries
+mid_co= len(countries)//2
+countries[mid_co]
+
+first_half = countries[:mid_co]
+print(first_half)
+second_half = countries[mid_co:]
+print(second_half)
